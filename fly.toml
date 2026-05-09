@@ -1,4 +1,4 @@
-app = "demo-backend"
+app = "project-sprint-boot-dam"
 primary_region = "fra"
 
 [build]
