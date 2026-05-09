@@ -18,7 +18,8 @@ public class CorsConfig implements WebMvcConfigurer {
                 "http://localhost:3000",
                 "http://localhost:8080", 
                 "http://127.0.0.1:3000",
-                "http://127.0.0.1:8080"
+                "http://127.0.0.1:8080",
+                "https://frontend-react-vite-dam-pdauf.vercel.app"
             )
             .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
             .allowedHeaders("*")
